@@ -1,3 +1,11 @@
+$(document).ready(function(){
+});   #Tudo que estiver dentro desse escopo, será executado após a renderização completa do HTML, evitando erros.
+
+# todo comando dentro da função começa por $ e termina por ;
+
+# podemos selecionar por tagName, classe e id. 
+
+
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
